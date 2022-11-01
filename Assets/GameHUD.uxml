@@ -1,3 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="VisualElement" style="position: absolute; height: 104px; width: 167px; top: 25px; left: 25px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(164, 231, 166); background-image: url(&apos;project://database/Assets/Textures/Mongol_Flag.png?fileID=2800000&amp;guid=bb6815fc5baf7b8428a2ba690cc4946c&amp;type=3#Mongol_Flag&apos;);" />
+    <Style src="project://database/Assets/GameUSS.uss?fileID=7433441132597879392&amp;guid=b796d437d3512a24fbeddf0a4cec7c27&amp;type=3#GameUSS" />
+    <ui:VisualElement name="Flag" style="position: absolute; height: 104px; width: 167px; top: 25px; left: 25px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(164, 231, 166); background-image: url(&apos;project://database/Assets/Textures/Mongol_Flag.png?fileID=2800000&amp;guid=bb6815fc5baf7b8428a2ba690cc4946c&amp;type=3#Mongol_Flag&apos;);" />
+    <ui:VisualElement name="FlagBorder" style="background-image: url(&apos;project://database/Assets/GUI_Parts/Gui_parts/Mini_frame1.png?fileID=2800000&amp;guid=9a38d34966735d24e9cda5ecb0a183bc&amp;type=3#Mini_frame1&apos;); width: 168px; height: 108px; align-items: flex-start; position: absolute; top: 25px; left: 25px;" />
+    <ui:VisualElement name="PlayerHealth" style="position: absolute; height: 50px; width: 800px; top: 550px; left: 100px; background-image: none;">
+        <ui:VisualElement name="Filling" style="background-color: rgb(109, 231, 66); position: absolute; left: 0; top: 0; height: 100%; width: 100%;" />
+        <ui:VisualElement name="Border" style="background-image: url(&apos;project://database/Assets/GUI_Parts/Gui_parts/Hp_frame.png?fileID=2800000&amp;guid=9d5f6625b0b035841a1153f7e5466a94&amp;type=3#Hp_frame&apos;); position: absolute; left: 0; top: 0; width: 100%; height: 100%;" />
+    </ui:VisualElement>
 </ui:UXML>
